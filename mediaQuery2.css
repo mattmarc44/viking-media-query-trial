@@ -1,0 +1,47 @@
+*{
+    margin: 0px;    
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 50%;
+    flex: 1;
+    display: flex;
+    
+}
+.pic1{
+      width: 100%;  
+}
+.para{
+    padding: 2px;
+    flex: 1;
+    display: flex;
+}
+@media (max-width:1000px){
+    .container{flex-direction: column;}
+    .img{width: 100%;}
+}
+/*@media (max-width:450px){
+  
+
+@media (min-width:451px) and (max-width:540px)
+  
+
+@media (min-width:541px) and (max-width:768px)
+    
+
+
+@media (min-width:769px) and (max-width:1024px)
+   
+
+
+@media (min-width:1025px) and (max-width:1200px)
+ 
+
+@media (min-width:1201px)
+*/
