@@ -5,10 +5,14 @@
     background: green;
 }
 #pic{
+    
     width:400px;
     float: left;
+    background: silver;
 }
+
 #para{
+    
     width: 560px;
     float: left;
     background: orange;
@@ -29,17 +33,13 @@
 @media screen and (max-width:640px){
     #pic{
         width:100%;
-        display: block;
     }
     #para{
         width:100%;
-        display: block;
     }
-
 }
 
 @media screen and (max-width:400px){
     #container{
         width:400px;
     }
-}
